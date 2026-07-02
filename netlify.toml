@@ -1,7 +1,5 @@
-cat > netlify.toml <<'EOF'
 [build]
   publish = "dist"
 
 [build.processing]
   skip_processing = false
-EOF
