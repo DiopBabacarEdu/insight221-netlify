@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://insight221.com/sitemap.xml

@@ -1,0 +1,17 @@
+[build]
+  publish = "dist"
+
+[build.processing]
+  skip_processing = false
+
+[[redirects]]
+  from = "https://www.insight221.com/*"
+  to = "https://insight221.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/articles/:splat.html"
+  to = "/articles/:splat/"
+  status = 301
+  force = true
